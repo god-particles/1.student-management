@@ -110,12 +110,6 @@ def destroyRootWindow():
     secondWindow.mainloop()
 
 
-# def printDetails():
-#     for singleItem in list:
-#         print("Student name is: %s\nCollege name is: %s\nPhone number is: %d\nAddress is: %s" %
-#               (singleItem.studentName, singleItem.collegeName, singleItem.phoneNumber, singleItem.address))
-#         print("***************************************")
-
 button = tk.Button(root, text="Take input", command=lambda :takeNameInput())
 button.grid(row=5, column=0, pady=30)
 
